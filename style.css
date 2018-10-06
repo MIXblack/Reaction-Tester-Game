@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+
+#shape{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+}
+
+.divider{
+    margin-bottom: 10px;
+}
+
+.card-panel{
+    height: 500px !important;
+}
+
+.score{
+    width: 150px;
+    padding: 2px;
+    padding-left: 15px;
+    background-color: #ffab91;
+    color: #000;
+}
+
+@media(max-width: 560px){
+    nav .brand-logo{
+        font-size: 24px !important;
+    }
+
+    .card-title{
+        font-size: 18px !important;
+    }
+
+    .card-image{
+        background-image: url('img/bg-img2.jpg');
+        height: 150px !important;
+    }
+}
